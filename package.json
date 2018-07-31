@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "dev-test": "nodemon dev-test"
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,9 @@
     "testURL": "http://localhost/"
   },
   "dependencies": {
-    "crypto-js": "^3.1.9-1"
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "ws": "^6.0.0"
   }
 }
