@@ -11,8 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.1.0",
+    "jest": "^23.4.2",
     "nodemon": "^1.17.5"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1"
