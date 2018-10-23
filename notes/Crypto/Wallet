@@ -1,0 +1,25 @@
+## Wallet
+
+- wallet has a balance of an individual
+- wallet has an individuals keys - private (generate signatures) and public (verify signatures)
+public address = public key - so that others can send money to the wallet
+
+
+
+## Transactions
+
+- input of a transaction: details of the sender, their starting balance, the senders digital signature
+- output object 1 : amount field and address field (how much sending to who)
+- output object 2 : amount of new balance and own address
+
+
+## Digital signature
+
+private key + transaction data = "signature"
+by using public key, anyone can verify signature and read data behind it
+(if the data doesn't match the signature it is not valid)
+
+so we need to...
+build wallets
+keys for signatures
+transaction objects

@@ -1,0 +1,22 @@
+Multiple Chain Validation
+
+- miners each need their own version of the chain
+if they want to mine - they have to submit it to the system, so everyone can update their chains
+
+- needs to be validation of some sort on the new block
+
+1. longer chains are accepted
+- this helps with forking
+- the system needs to determine which block to accept
+- fork that loses gets added to the end of the longer block
+
+2. Hash validation
+
+
+P2P web socket server
+we use web sockets for the P2P server
+apps will either be the first waiting for others to join it, or will be a later server - we'll make one server which can do both
+
+
+"transaction Pool"
+- transactions are unconfirmed until they are mined

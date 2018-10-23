@@ -1,0 +1,23 @@
+Crypto Currency Overview
+
+
+### Crypto currency has 3 components
+
+1. Block chain (secure)
+
+- Everyone has public access to the leger
+- Cryptography is used to obscure create digital signatures so others cant imperson you (private and public keys)
+
+2. Wallets
+
+- store the private and public key of an individual
+- public key is the address of your wallet (others use it to send money to you)
+- help sign transactions
+
+3. Mining
+
+- Transactions are unconfirmed when they haven't been confirmed in the block chain
+- Done by solving a "proof of work" algorithm - time consuming and computationally expensive
+- Once mined, the user submits the solution and the problem. Other users can easily see that the solution is correct. They allow that user to add the blocks to the chain.
+- Why mine? - The miner receives a little bit of crypto currency.
+- Allows the crypto currency itself to be in control of how much processing (how many transactions) it does at once.

@@ -1,0 +1,17 @@
+Proof of Work System + 51 %
+
+- proof of work requires miners to prove they've done work
+- any peer can replace the blockchain
+- proof of work makes it very expensive to generate corrupt changes
+- manageable to submit one block, unproductive to generate an entire chain
+
+"hashcash" proof of work system was created to prevent email spamming
+
+there are difficulties in the system at different times
+dif 6 = 6 zeroes leading to find randomly (this sets a rate of mining) - bitcoin allows 1 block every 10 minutes
+miner has to generate a bunch of hashes that match the difficulty
+a "nonce" value adjusts in order to generate new hashes
+nonce value is stored as part of the block
+
+51% attack - a scenario where a dishonest miner has more than 51% of the networks power
+it would take billions of dollars to do this to bitcoin, and then you ruined the system you just took over

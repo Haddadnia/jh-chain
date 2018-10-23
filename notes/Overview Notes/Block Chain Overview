@@ -1,0 +1,29 @@
+Block Chain Overview
+
+
+### What is it?
+
+It's a distributed ledger
+Blockchain is "trustless"
+Could be awesome for voting - banking - passport control etc.
+
+## What makes it a distributed ledger?
+
+Multiple individuals connect to the "core block chain network"
+Each person has a full record of the leger
+They will get updates when someone changes their copy
+No central organization has the responsibility of updating and maintaining
+Benefits: trustless - no middle men - no central point of failure
+
+
+### What is a block?
+
+It's a node in a linked list
+it has data
+it has a hash
+it has the hash of its "parent node" (the one before it)
+
+## What is the hash made of?
+
+The data the block/node holds
+AND - important - the hash of the node before it

@@ -1,0 +1,29 @@
+Setup
+
+- using: nodejs/npm, postman, nodemon (dynamic server)
+- npm --init -y (yes to everything)
+- npm i nodemon --save-dev (save as dev dependency - not a requirement for creating production version)
+
+
+added a script to package.json in scripts which allows us to run tests (js files) view nodemon and npm run
+
+npm i crypto-js --save (library and dependency used for SHA-256)
+
+npm i jest --save-dev (for testing)
+npm i elliptic --save (for key generation)
+npm i uuid --save (for universally unique ID)
+
+Using Node / npm, jest for testing, express for the app
+Components:
+
+Block
+Block chain
+Express app
+P2P server
+Proof of work
+Dynamic block difficulty
+Elliptic cryptography
+
+
+
+THOUGHT - could test making 2 chains which arent yet peers... adding different blocks to the chain... then connect a third with both as peers

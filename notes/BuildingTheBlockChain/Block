@@ -1,0 +1,15 @@
+### Block
+
+Blocks have:
+1. Time stamp (created)
+2. lastHash (hash of block before)
+3. hash (its own)
+4. data (string, array, js object)
+
+
+### Original (Genesis) block
+- Basically only purpose is to be the first block
+
+### Blocks need to be able to mine / be mined
+
+## We need to be able to hash

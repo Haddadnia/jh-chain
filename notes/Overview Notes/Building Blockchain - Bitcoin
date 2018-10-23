@@ -1,0 +1,25 @@
+Building Blockchain - Bitcoin
+
+"Satashi Nakamoto" - invented bitcoin
+
+### bitcoin.pdf
+
+- https://bitcoin.org/bitcoin.pdf
+
+Intro: 
+"The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes."
+
+
+Elements of the system/ sections of original bitcoin.pdf:
+- Transactions (signing transactions w/ unique signatures - private keys)
+- Timestamp server (to order the blocks in the chain) - that way theres a chain. This solves the double spending problem.
+- Proof of work - for proof of mining, based on a SHA-256 (aka sha-2)
+- Network
+- Incentive
+
+Extra features:
+- Reclaiming Disk space - so bitcoin doesn't take up too much space
+- Simplified Payment Verification
+- Combining and Splitting Value (more efficient to have 1 transaction with multiple inputs and outputs)
+- Privacy everything is public but they are keys - not names - anonymity
+- Calculations - low probability / impracticality of someone tkaing over
